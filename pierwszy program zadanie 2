@@ -1,0 +1,14 @@
+osboxes@osboxes:~/Pobrane$ javac Main2_a.java
+Main2_a.java:5: error: ';' expected
+		System.out.println("Pierwszy program JAVA")
+		                                           ^
+1 error
+osboxes@osboxes:~/Pobrane$ 
+
+osboxes@osboxes:~/Pobrane$ javac Main2_b.java
+Main2_b.java:5: error: cannot find symbol
+		System.out.prinln("Pierwszy program JAVA");
+		          ^
+  symbol:   method prinln(String)
+  location: variable out of type PrintStream
+1 error
